@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@500&display=swap');
+
+body
+{
+	
+}
+.hidden
+{
+	display:none;
+}
+#input
+{
+	text-align: center;
+}
+h1
+{
+	font-size: 2.5em;
+	font-family: Helvetica;
+	font-weight: bold;
+	padding: 1em;
+}
+p.intro
+{
+	width: 80%;
+	display: inline-block;
+	padding-bottom: 1em;
+	font-family: Helvetica;
+}
+textarea
+{
+	width: 80%;
+	height: 50vh;
+	margin: 1em;
+	clear: both;
+}
+button i
+{
+	display: inline !important;
+	width: 0%;
+	padding-right: 0.2em;
+}
+button
+{
+	display: block;
+	margin-left: 50%;
+	margin-right: 50%;
+	padding: 0.7em;
+	font-size: 1.2em;	
+	background: #ff9cad;
+	border: none;	
+	outline: none;	
+	font-family: 'Raleway', Helvetica;	
+	font-weight: bold;
+	transform: translate(-50%,0);
+
+}
+button:hover
+{
+	cursor: pointer;	
+	background: pink;	
+}
+.fuzz
+{
+	color: transparent;
+	text-shadow: 0 0 10px #ff47f5;
+	font-size: 1em !important;
+}
+#output
+{
+	font-family: Helvetica;
+	text-align: center;
+}
+#output p
+{
+	font-size: 1.5em;
+	padding-top: 1em;
+	display: inline-block;
+	text-align: left;
+	width: 80%;
+	line-height: 1.2em;
+	font-family: 'Open Sans', Helvetica;
+}
